@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+}
+
+main{
+    min-height: 80vh;
+    width: 60%;
+    background-color: white;
+    border-radius: 2%;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    box-shadow: 0 0 1em  black;
+}
+
+#addingTask{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 1em;
+}
+
+#task{
+    width: 10rem;
+    border: 0;
+    height: 2rem;
+}
+
+#options {
+    height: 2rem;
+    width: 5rem;
+}
